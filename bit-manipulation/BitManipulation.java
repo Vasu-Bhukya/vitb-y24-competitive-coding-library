@@ -8,7 +8,6 @@ class BitManipulation {
         // set the k-th bit to 1
         return n | (1L << k);
     }
-
     public static long clearBit(long n, int k) {
         // set the k-th bit to 0
         return n & ~(1L << k);
